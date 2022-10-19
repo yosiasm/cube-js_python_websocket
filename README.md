@@ -10,7 +10,8 @@
 authorization = {
     "authorization": "PUT HERE",
 }```
-5. To query your data, put your query like example ```{
+5. To query your data, put your query like example ```json
+{
     "messageId": 1,  # you can set random number > 0
     "method": "subscribe",
     "params": {
@@ -24,3 +25,4 @@ authorization = {
 ```
 6.  You can send multiple query by set different ```messageId``` value
 7. ```streamlit run main.py```
+![output](Screenshot from 2022-10-20 02-55-25.png)

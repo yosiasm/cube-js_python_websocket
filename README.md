@@ -1,4 +1,4 @@
-# Connecting Cube Js to Streamlit via websocket
+# Connecting ![Cube](https://github.com/cube-js/cube.js) to Streamlit via websocket
 
 1. Make sure you enable websocket feature in cube js ```CUBEJS_WEB_SOCKETS=true``` in ```docker-compose.yml```
 2. Open your Cube js playground, then you need to setup your JWT token
